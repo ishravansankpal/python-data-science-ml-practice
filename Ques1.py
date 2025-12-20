@@ -1,3 +1,16 @@
+## Objective
+Perform basic data handling operations using Python on the Titanic dataset.
+
+## Tasks Performed
+- Read data from different file formats (CSV, Excel)
+- Indexing and selecting data
+- Sorting data
+- Descriptive statistics
+- Checking data types of each column
+
+## Dataset
+- Titanic dataset
+
 import pandas as pd
 
 # Read CSV
@@ -17,3 +30,4 @@ print(df.sort_values('Age').head())
 
 print("\n--- Describe attributes ---")
 print(df.describe())
+
