@@ -46,7 +46,3 @@ print("50th Percentile (Median):", col.quantile(0.50))
 print("75th Percentile:", col.quantile(0.75))
 
 
-# print('Variance:', col.var())
-
-
-# print('Percentile of 50%:', col.quantile(0.5))
