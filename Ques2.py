@@ -1,3 +1,16 @@
+## Objective
+Compute and analyze summary statistics for each feature in the Telecom Churn dataset using Python.
+
+## Tasks Performed
+- Calculated minimum and maximum values
+- Computed mean and range
+- Calculated standard deviation and variance
+- Computed percentiles for numerical features
+- Displayed each statistic using separate Python commands
+
+## Dataset
+- Telecom Churn dataset
+
 import pandas as pd
 
 # Load dataset
@@ -33,26 +46,7 @@ print("50th Percentile (Median):", col.quantile(0.50))
 print("75th Percentile:", col.quantile(0.75))
 
 
-# import pandas as pd
-
-# df = pd.read_csv('Telecom Churn.csv')
-
-# print(df.head())
-
-# print(df.columns)
-
-# col = df['account length']
-
-# print('Minimum:', col.min())
-
-# print('Maximum:', col.max())
-
-# print('Mean:', col.mean())
-
-# print('Range:', col.max() - col.min())
-
-# print('Standard Deviation:', col.std())
-
 # print('Variance:', col.var())
+
 
 # print('Percentile of 50%:', col.quantile(0.5))
