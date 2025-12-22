@@ -1,15 +1,15 @@
-## Objective
-Compute and analyze summary statistics for each feature in the Telecom Churn dataset using Python.
+# Objective
+# Compute and analyze summary statistics for each feature in the Telecom Churn dataset using Python.
 
-## Tasks Performed
-- Calculated minimum and maximum values
-- Computed mean and range
-- Calculated standard deviation and variance
-- Computed percentiles for numerical features
-- Displayed each statistic using separate Python commands
+# Tasks Performed
+# - Calculated minimum and maximum values
+# - Computed mean and range
+# - Calculated standard deviation and variance
+# - Computed percentiles for numerical features
+# - Displayed each statistic using separate Python commands
 
-## Dataset
-- Telecom Churn dataset
+# Dataset
+# - Telecom Churn dataset
 
 import pandas as pd
 
@@ -44,5 +44,6 @@ print("Variance:", col.var())
 print("25th Percentile:", col.quantile(0.25))
 print("50th Percentile (Median):", col.quantile(0.50))
 print("75th Percentile:", col.quantile(0.75))
+
 
 
