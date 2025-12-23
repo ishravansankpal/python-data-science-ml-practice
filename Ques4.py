@@ -1,3 +1,20 @@
+# Objective
+# Build a Decision Tree classifier step-by-step without using any machine learning libraries
+# to analyze customer responses to a promotional offer in a cosmetics shop.
+
+# Problem Description
+# The dataset contains customer attributes such as age, income, gender, and marital status,
+# along with a target variable indicating whether the customer purchased a new lipstick.
+
+# Tasks Performed
+# - Implemented a Decision Tree from scratch using Python
+# - Calculated entropy and information gain manually
+# - Identified the root node based on maximum information gain
+# - Used the target variable **Buys** for classification
+
+# Dataset
+# - Customer purchase response dataset (cosmetics shop)
+
 import pandas as pd
 import math
 
@@ -32,3 +49,4 @@ root_node = max(gains, key=gains.get)
 
 print("Information Gain per attribute:", gains)
 print("Root Node:", root_node)
+
