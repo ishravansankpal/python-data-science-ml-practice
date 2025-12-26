@@ -1,3 +1,35 @@
+# K-Means Clustering (Manual Implementation)
+
+# Objective
+# To perform K-Means clustering on a given set of 2D data points using predefined initial centroids and analyze cluster assignments and centroid updates.
+
+# Dataset
+# A collection of 8 data points:
+# - P1 = [2, 10]
+# - P2 = [2, 5]
+# - P3 = [8, 4]
+# - P4 = [5, 8]
+# - P5 = [7, 5]
+# - P6 = [6, 4]
+# - P7 = [1, 2]
+# - P8 = [4, 9]
+
+# Initial Cluster Centroids
+# - Cluster C1 (m1) = P1 = [2, 10]
+# - Cluster C2 (m2) = P4 = [5, 8]
+# - Cluster C3 (m3) = P7 = [1, 2]
+
+# Methodology
+# - Euclidean distance is used as the distance measure.
+# - Each point is assigned to the nearest centroid.
+# - New centroids are computed by calculating the mean of points in each cluster.
+# - Clustering is performed step-by-step for academic understanding.
+
+# Tasks Performed
+# - Determine the cluster to which point P6 belongs
+# - Calculate the population of the cluster around centroid m3
+# - Compute the updated values of centroids m1,m2, and m3
+
 import numpy as np
 
 # Given points
@@ -69,3 +101,4 @@ print("2) Population of Cluster 3:", len(C3))
 print("\n3) Updated m1:", new_m1)
 print("   Updated m2:", new_m2)
 print("   Updated m3:", new_m3)
+
