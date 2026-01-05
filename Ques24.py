@@ -1,3 +1,8 @@
+# 24. Perform the following operations using Python on a suitable data set,
+# counting unique values of data, format of each column, converting variable
+# data type (e.g. from long to short, vice versa), identifying missing values
+# and filling in the missing values.
+
 import pandas as pd
 
 # Load the Titanic dataset from CSV file into a DataFrame
@@ -33,5 +38,6 @@ df['Fare'] = df['Fare'].fillna(df['Fare'].median())
 
 # Check again for missing values after cleaning
 print(df.isnull().sum())
+
 
 
