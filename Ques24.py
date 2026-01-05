@@ -35,23 +35,3 @@ df['Fare'] = df['Fare'].fillna(df['Fare'].median())
 print(df.isnull().sum())
 
 
-# import pandas as pd 
-
-# df = pd.read_csv('Titanic.csv')
-
-# print(df.head())
-
-# print(df.dtypes)
-
-# print(df.nunique())
-
-# df['Pclass'] = df['Pclass'].astype(float)
-# print(df.dtypes)
-
-# print(df.isnull().sum())
-
-# df['Age'] = df['Age'].fillna(df['Age'].median())
-# df['Fare'] = df['Fare'].fillna(df['Fare'].mean())
-# df.drop(columns=['Cabin'],inplace =True, errors = 'ignore')
-
-# print(df.isnull().sum())
